@@ -1,0 +1,6 @@
+# Editor / tooling
+.claude/
+.idea/
+
+# Python
+__pycache__/

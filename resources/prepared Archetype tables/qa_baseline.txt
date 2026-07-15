@@ -1,0 +1,283 @@
+# QA BASELINE SNAPSHOT (pre-script)
+Generated from current prepared/*.md before running qa_leaves.py, for diffing.
+
+Archetypes: 198
+Element leaves (total): 1977
+Cluster slot leaves (total): 346
+Total leaves: 2323
+Slot openness: any-archetype=94  constrained=252
+
+## Value-type distribution (element leaves)
+  820  DV_TEXT
+  185  DV_ORDINAL
+  147  DV_QUANTITY
+  136  DV_CODED_TEXT
+  130  DV_COUNT
+  130  DV_DATE_TIME
+   85  DV_BOOLEAN
+   72  DV_CODED_TEXT / DV_TEXT
+   31  DV_DURATION
+   28  DV_DATE
+   24  DV_IDENTIFIER / DV_TEXT
+   21  DV_CODED_TEXT / DV_TEXT / DV_BOOLEAN
+   16  DV_TEXT / DV_CODED_TEXT
+   13  DV_PROPORTION
+    9  DV_EHR_URI
+    9  DV_URI
+    8  any
+    7  DV_QUANTITY / DV_TEXT
+    6  DV_IDENTIFIER
+    6  DV_PARSABLE
+    6  DV_COUNT / DV_TEXT
+    5  DV_QUANTITY / DV_INTERVAL
+    5  DV_DATE_TIME / DV_INTERVAL
+    5  DV_TEXT / DV_URI
+    4  DV_TEXT / DV_IDENTIFIER
+    4  DV_TEXT / DV_QUANTITY
+    4  DV_DATE_TIME / DV_INTERVAL / DV_TEXT / DV_DURATION
+    3  DV_DURATION / DV_INTERVAL
+    3  DV_COUNT / DV_INTERVAL
+    3  DV_COUNT / DV_QUANTITY
+    3  DV_TEXT / DV_INTERVAL / DV_DURATION / DV_DATE_TIME
+    2  DV_DATE_TIME / DV_INTERVAL / DV_DURATION / DV_TEXT
+    2  DV_MULTIMEDIA
+    2  DV_COUNT / DV_DURATION
+    2  DV_DURATION / DV_INTERVAL / DV_TEXT
+    2  DV_COUNT / DV_BOOLEAN
+    2  DV_DATE_TIME / DV_DURATION / DV_INTERVAL / DV_TEXT
+    2  DV_DURATION / DV_DATE
+    2  DV_DATE_TIME / DV_TEXT / DV_INTERVAL / DV_DURATION
+    2  DV_DATE_TIME / DV_TEXT
+    1  DV_BOOLEAN / DV_TEXT / DV_CODED_TEXT
+    1  DV_CODED_TEXT / DV_DURATION / DV_QUANTITY
+    1  DV_IDENTIFIER / DV_URI
+    1  DV_CODED_TEXT / DV_QUANTITY
+    1  DV_MULTIMEDIA / DV_URI
+    1  DV_IDENTIFIER / DV_URI / DV_TEXT
+    1  DV_BOOLEAN / DV_TEXT
+    1  DV_PROPORTION / DV_CODED_TEXT / DV_TEXT
+    1  DV_BOOLEAN / DV_CODED_TEXT
+    1  DV_CODED_TEXT / DV_DURATION / DV_TEXT
+    1  DV_TEXT / DV_DURATION / DV_INTERVAL
+    1  DV_CODED_TEXT / DV_DURATION / DV_TEXT / DV_INTERVAL
+    1  DV_QUANTITY / DV_COUNT / DV_TEXT
+    1  DV_TEXT / DV_EHR_URI
+    1  DV_DATE_TIME / DV_DURATION / DV_TEXT / DV_INTERVAL
+    1  DV_INTERVAL / DV_COUNT / DV_QUANTITY / DV_DURATION / DV_PROPORTION / DV_TEXT
+    1  DV_TEXT / DV_PROPORTION / DV_QUANTITY
+    1  DV_DURATION / DV_QUANTITY
+    1  DV_TEXT / DV_CODED_TEXT / DV_QUANTITY
+    1  DV_DURATION / DV_QUANTITY / DV_TEXT / DV_INTERVAL
+    1  DV_DURATION / DV_QUANTITY / DV_TEXT
+    1  DV_INTERVAL / DV_QUANTITY
+    1  DV_INTERVAL / DV_COUNT
+    1  DV_INTERVAL / DV_DATE_TIME
+    1  DV_QUANTITY / DV_CODED_TEXT
+    1  DV_IDENTIFIER / DV_CODED_TEXT
+    1  DV_DURATION / DV_INTERVAL / DV_TEXT / DV_DATE_TIME
+    1  DV_DATE_TIME / DV_CODED_TEXT
+    1  DV_DATE_TIME / DV_TEXT / DV_DURATION / DV_INTERVAL
+    1  DV_TEXT / DV_DATE_TIME / DV_DURATION / DV_INTERVAL
+    1  DV_DURATION / DV_INTERVAL / DV_DATE_TIME / DV_TEXT
+
+SUM value-type counts: 1977 (should equal element leaves 1977)
+
+## Per-archetype (archetype_id, elements, slots, leaves)
+openEHR-EHR-ACTION.health_education.v1,11,6,17
+openEHR-EHR-ACTION.medication.v1,16,5,21
+openEHR-EHR-ACTION.procedure.v1,21,4,25
+openEHR-EHR-ACTION.service.v1,10,5,15
+openEHR-EHR-ADMIN_ENTRY.episode_institution.v0,19,6,25
+openEHR-EHR-ADMIN_ENTRY.person_data.v0,2,6,8
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,2,1,3
+openEHR-EHR-CLUSTER.address.v1,14,1,15
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,14,5,19
+openEHR-EHR-CLUSTER.anatomical_location.v1,6,2,8
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,5,1,6
+openEHR-EHR-CLUSTER.anatomical_location_relative.v2,5,1,6
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,4,0,4
+openEHR-EHR-CLUSTER.clinical_evidence.v1,8,4,12
+openEHR-EHR-CLUSTER.ctcae.v1,5,0,5
+openEHR-EHR-CLUSTER.device.v1,14,4,18
+openEHR-EHR-CLUSTER.dosage.v1,9,1,10
+openEHR-EHR-CLUSTER.dosage.v2,7,1,8
+openEHR-EHR-CLUSTER.education_record.v1,7,2,9
+openEHR-EHR-CLUSTER.exam.v2,5,4,9
+openEHR-EHR-CLUSTER.family_prevalence.v1,9,0,9
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,5,0,5
+openEHR-EHR-CLUSTER.fnclcc.v1,5,0,5
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,4,2,6
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,4,1,5
+openEHR-EHR-CLUSTER.genomic_deletion_insertion_variant.v1,4,1,5
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,3,1,4
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,3,1,4
+openEHR-EHR-CLUSTER.genomic_insertion_variant.v1,3,1,4
+openEHR-EHR-CLUSTER.genomic_inversion_variant.v1,3,1,4
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,5,1,6
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,3,1,4
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,32,10,42
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,5,0,5
+openEHR-EHR-CLUSTER.housing_record.v1,7,2,9
+openEHR-EHR-CLUSTER.imaging_exam-cervix.v1,6,2,8
+openEHR-EHR-CLUSTER.imaging_exam-fallopian_tube.v1,7,3,10
+openEHR-EHR-CLUSTER.imaging_exam-foetus.v1,10,2,12
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,10,2,12
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,13,2,15
+openEHR-EHR-CLUSTER.imaging_exam-rectouterine_pouch.v1,8,2,10
+openEHR-EHR-CLUSTER.imaging_exam.v1,5,2,7
+openEHR-EHR-CLUSTER.information_resource.v1,8,2,10
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,5,1,6
+openEHR-EHR-CLUSTER.interpreter_request.v1,4,2,6
+openEHR-EHR-CLUSTER.item_transport.v1,11,5,16
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,8,0,8
+openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,12,1,13
+openEHR-EHR-CLUSTER.language.v1,4,0,4
+openEHR-EHR-CLUSTER.media_file.v1,6,3,9
+openEHR-EHR-CLUSTER.occupation_record.v1,10,2,12
+openEHR-EHR-CLUSTER.oocyte_specimen.v1,1,0,1
+openEHR-EHR-CLUSTER.organisation.v1,4,5,9
+openEHR-EHR-CLUSTER.person.v1,5,6,11
+openEHR-EHR-CLUSTER.problem_qualifier.v2,15,0,15
+openEHR-EHR-CLUSTER.range_of_motion.v1,6,1,7
+openEHR-EHR-CLUSTER.reference_sequence.v1,6,0,6
+openEHR-EHR-CLUSTER.religion.v1,3,1,4
+openEHR-EHR-CLUSTER.service_direction.v1,6,3,9
+openEHR-EHR-CLUSTER.specimen.v1,20,9,29
+openEHR-EHR-CLUSTER.specimen_container.v1,8,2,10
+openEHR-EHR-CLUSTER.structured_name.v1,4,0,4
+openEHR-EHR-CLUSTER.symptom_sign.v2,28,8,36
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,6,3,9
+openEHR-EHR-CLUSTER.tnm-pathological.v1,22,0,22
+openEHR-EHR-CLUSTER.tnm.v1,18,0,18
+openEHR-EHR-CLUSTER.who_grade_bone_sarcoma.v1,1,0,1
+openEHR-EHR-EVALUATION.advance_care_directive.v2,11,4,15
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,17,3,20
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v1,26,5,31
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,11,1,12
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,33,3,36
+openEHR-EHR-EVALUATION.art_cycle_summary.v1,30,1,31
+openEHR-EHR-EVALUATION.cause_of_death.v1,10,1,11
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,1,0,1
+openEHR-EHR-EVALUATION.communication_capability.v1,5,3,8
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,19,3,22
+openEHR-EHR-EVALUATION.contraindication.v1,11,0,11
+openEHR-EHR-EVALUATION.death_summary.v1,16,3,19
+openEHR-EHR-EVALUATION.device_summary.v0,11,3,14
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,7,1,8
+openEHR-EHR-EVALUATION.education_summary.v1,6,2,8
+openEHR-EHR-EVALUATION.ethnicity.v1,6,1,7
+openEHR-EHR-EVALUATION.exclusion_global.v1,2,1,3
+openEHR-EHR-EVALUATION.exclusion_specific.v1,3,1,4
+openEHR-EHR-EVALUATION.financial_summary.v1,6,1,7
+openEHR-EHR-EVALUATION.gender.v1,9,1,10
+openEHR-EHR-EVALUATION.goal.v1,17,1,18
+openEHR-EHR-EVALUATION.health_risk.v1,15,1,16
+openEHR-EHR-EVALUATION.housing_summary.v1,3,2,5
+openEHR-EHR-EVALUATION.last_menstrual_period.v1,5,0,5
+openEHR-EHR-EVALUATION.medication_summary.v1,19,1,20
+openEHR-EHR-EVALUATION.menstruation_summary.v1,14,1,15
+openEHR-EHR-EVALUATION.obstetric_summary.v1,17,0,17
+openEHR-EHR-EVALUATION.occupation_summary.v1,4,2,6
+openEHR-EHR-EVALUATION.precaution.v1,9,1,10
+openEHR-EHR-EVALUATION.pregnancy_status.v0,3,0,3
+openEHR-EHR-EVALUATION.problem_diagnosis.v1,14,3,17
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,2,0,2
+openEHR-EHR-EVALUATION.recommendation.v2,4,0,4
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,30,3,33
+openEHR-EHR-EVALUATION.social_network.v1,4,2,6
+openEHR-EHR-EVALUATION.specimen_summary.v1,16,5,21
+openEHR-EHR-EVALUATION.substance_use_summary.v1,20,2,22
+openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,29,3,32
+openEHR-EHR-INSTRUCTION.medication_order.v2,36,9,45
+openEHR-EHR-INSTRUCTION.medication_order.v3,35,9,44
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,12,3,15
+openEHR-EHR-OBSERVATION.acvpu.v1,1,0,1
+openEHR-EHR-OBSERVATION.age_assertion.v1,3,0,3
+openEHR-EHR-OBSERVATION.apgar.v2,6,0,6
+openEHR-EHR-OBSERVATION.asa_status.v1,2,0,2
+openEHR-EHR-OBSERVATION.blood_pressure.v2,17,3,20
+openEHR-EHR-OBSERVATION.body_mass_index.v2,6,0,6
+openEHR-EHR-OBSERVATION.body_segment_area.v1,8,2,10
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,8,2,10
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,7,3,10
+openEHR-EHR-OBSERVATION.body_segment_length.v1,9,3,12
+openEHR-EHR-OBSERVATION.body_surface_area.v1,5,1,6
+openEHR-EHR-OBSERVATION.body_temperature.v2,7,4,11
+openEHR-EHR-OBSERVATION.body_weight.v2,4,1,5
+openEHR-EHR-OBSERVATION.braden_scale.v1,8,0,8
+openEHR-EHR-OBSERVATION.bvc.v1,8,0,8
+openEHR-EHR-OBSERVATION.capillary_refill.v1,6,2,8
+openEHR-EHR-OBSERVATION.cgas.v1,2,0,2
+openEHR-EHR-OBSERVATION.charlson_comorbidity_index.v2,19,0,19
+openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1,1,0,1
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,1,0,1
+openEHR-EHR-OBSERVATION.cormack_lehane.v1,2,0,2
+openEHR-EHR-OBSERVATION.cpax.v1,11,0,11
+openEHR-EHR-OBSERVATION.crb_65.v1,6,0,6
+openEHR-EHR-OBSERVATION.curb_65.v1,7,0,7
+openEHR-EHR-OBSERVATION.demo.v1,21,2,23
+openEHR-EHR-OBSERVATION.ecg_result.v1,58,6,64
+openEHR-EHR-OBSERVATION.ecog.v1,2,0,2
+openEHR-EHR-OBSERVATION.ecog.v2,1,0,1
+openEHR-EHR-OBSERVATION.esas_r.v1,11,0,11
+openEHR-EHR-OBSERVATION.exam.v1,5,2,7
+openEHR-EHR-OBSERVATION.exposure_screening.v1,8,2,10
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,12,0,12
+openEHR-EHR-OBSERVATION.fluid_balance.v1,5,0,5
+openEHR-EHR-OBSERVATION.fluid_input.v1,5,3,8
+openEHR-EHR-OBSERVATION.fluid_output.v1,5,3,8
+openEHR-EHR-OBSERVATION.four_a_test.v1,5,0,5
+openEHR-EHR-OBSERVATION.glasgow_coma_scale.v1,7,0,7
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,27,0,27
+openEHR-EHR-OBSERVATION.head_circumference.v1,3,1,4
+openEHR-EHR-OBSERVATION.height.v1,4,1,5
+openEHR-EHR-OBSERVATION.height.v2,4,1,5
+openEHR-EHR-OBSERVATION.hip_circumference.v1,3,1,4
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,16,0,16
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,36,11,47
+openEHR-EHR-OBSERVATION.investigation_screening.v1,9,2,11
+openEHR-EHR-OBSERVATION.ipss.v1,9,0,9
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,1,0,1
+openEHR-EHR-OBSERVATION.laboratory_test_result.v1,15,9,24
+openEHR-EHR-OBSERVATION.lenke_classification.v1,4,0,4
+openEHR-EHR-OBSERVATION.mallampati_classification.v1,2,0,2
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,3,0,3
+openEHR-EHR-OBSERVATION.management_screening.v1,8,2,10
+openEHR-EHR-OBSERVATION.management_screening.v2,7,2,9
+openEHR-EHR-OBSERVATION.mayo_score.v1,7,0,7
+openEHR-EHR-OBSERVATION.medication_screening.v1,8,2,10
+openEHR-EHR-OBSERVATION.medication_statement.v0,8,3,11
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,6,1,7
+openEHR-EHR-OBSERVATION.menstruation.v1,7,1,8
+openEHR-EHR-OBSERVATION.mini_bestest.v1,31,0,31
+openEHR-EHR-OBSERVATION.modified_rankin_scale.v1,1,0,1
+openEHR-EHR-OBSERVATION.msfc_score.v1,5,0,5
+openEHR-EHR-OBSERVATION.msfc_score.v2,5,0,5
+openEHR-EHR-OBSERVATION.news2.v1,10,0,10
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,11,0,11
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,13,0,13
+openEHR-EHR-OBSERVATION.nyha_heart_failure.v1,3,0,3
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v1,13,0,13
+openEHR-EHR-OBSERVATION.pasi_score.v1,21,0,21
+openEHR-EHR-OBSERVATION.pf_ratio.v1,4,0,4
+openEHR-EHR-OBSERVATION.problem_screening.v1,7,2,9
+openEHR-EHR-OBSERVATION.procedure_screening.v1,7,2,9
+openEHR-EHR-OBSERVATION.progress_note.v1,1,0,1
+openEHR-EHR-OBSERVATION.pulse.v2,12,2,14
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,9,5,14
+openEHR-EHR-OBSERVATION.qsofa_score.v1,5,0,5
+openEHR-EHR-OBSERVATION.respiration.v2,9,2,11
+openEHR-EHR-OBSERVATION.revised_cardiac_risk_index.v1,8,0,8
+openEHR-EHR-OBSERVATION.simplified_tanner_whitehouse_3.v1,1,0,1
+openEHR-EHR-OBSERVATION.social_context_screening.v1,6,2,8
+openEHR-EHR-OBSERVATION.spirometry_result.v2,19,5,24
+openEHR-EHR-OBSERVATION.story.v1,1,1,2
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,9,2,11
+openEHR-EHR-OBSERVATION.symptom_sign_screening.v1,8,2,10
+openEHR-EHR-OBSERVATION.tanner.v1,4,1,5
+openEHR-EHR-OBSERVATION.testicular_volume.v1,6,1,7
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v1,8,0,8
+openEHR-EHR-OBSERVATION.travel_screening.v1,7,2,9
+openEHR-EHR-OBSERVATION.urinalysis.v1,13,4,17
+openEHR-EHR-OBSERVATION.waist_circumference.v1,4,1,5
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,123,0,123
