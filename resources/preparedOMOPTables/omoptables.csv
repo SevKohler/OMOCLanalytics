@@ -1,0 +1,11 @@
+table,content_concepts,removed
+Measurement,4,9
+Observation,5,6
+DrugExposure,11,6
+ConditionOccurrence,6,4
+ProcedureOccurrence,6,4
+Specimen,7,3
+DeviceExposure,7,5
+Visit,6,5
+Person,4,5
+Death,3,1

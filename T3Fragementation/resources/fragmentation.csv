@@ -1,0 +1,199 @@
+archetype,concept,primary_table,leaves,mapped_primary,externalised,not_mapped,auxiliary,source
+openEHR-EHR-ACTION.health_education.v1,Health education,Observation,17,2,0,15,15,medical_data/action/Health_education_v1.yml
+openEHR-EHR-ACTION.medication.v1,Medication management,DrugExposure,21,3,0,18,18,medical_data/action/Medication_v1.yml
+openEHR-EHR-ACTION.procedure.v1,Procedure,ProcedureOccurrence,25,3,0,22,22,medical_data/action/Procedure_v1.yml
+openEHR-EHR-ACTION.service.v1,Service,Observation,15,3,0,12,12,medical_data/action/Service_v1.yml
+openEHR-EHR-ADMIN_ENTRY.episode_institution.v0,Admission,Visit,25,2,0,23,23,medical_data/admin_entry/Episode_institution_v0.yml
+openEHR-EHR-ADMIN_ENTRY.person_data.v0,Personendaten,Person,8,1,0,7,7,person_data/person_data_v0.yml
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,Translation requirement,Observation,3,1,0,2,2,medical_data/admin_entry/Translation_requirements_v1.yml
+openEHR-EHR-CLUSTER.address.v1,Address,Observation,15,1,0,14,14,medical_data/cluster/Address_v1.yml
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,Adverse reaction event,Observation,19,3,0,16,16,medical_data/cluster/Adverse_reaction_event_v1.yml
+openEHR-EHR-CLUSTER.anatomical_location.v1,Anatomical location,Observation,8,2,0,6,6,medical_data/cluster/Anatomical_location_v1.yml
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,Circular anatomical location,Observation,6,1,0,5,5,medical_data/cluster/Anatomical_location_circle_v1.yml
+openEHR-EHR-CLUSTER.anatomical_location_relative.v2,Relative anatomical location,Observation,6,1,0,5,5,medical_data/cluster/Anatomical_location_relative_v2.yml
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,Boston Bowel Preparation Scale,Measurement,4,1,0,3,3,medical_data/cluster/Boston_bowel_preparation_scale_v1.yml
+openEHR-EHR-CLUSTER.clinical_evidence.v1,Clinical evidence,Observation,12,1,0,11,11,medical_data/cluster/Clinical_evidence_v1.yml
+openEHR-EHR-CLUSTER.ctcae.v1,Common Terminology Criteria for Adverse Events (CTCAE),Measurement,5,2,0,3,3,medical_data/cluster/Ctcae_v1.yml
+openEHR-EHR-CLUSTER.device.v1,Medical device,DeviceExposure,18,6,0,12,12,medical_data/cluster/Device_v1.yml
+openEHR-EHR-CLUSTER.dosage.v1,Dosage,DrugExposure,10,2,0,8,8,medical_data/cluster/Dosage_v1.yml
+openEHR-EHR-CLUSTER.dosage.v2,Dosage,DrugExposure,8,2,0,6,6,medical_data/cluster/Dosage_v2.yml
+openEHR-EHR-CLUSTER.education_record.v1,Education record,Measurement,9,1,0,8,8,medical_data/cluster/Education_record_v1.yml
+openEHR-EHR-CLUSTER.exam.v2,Physical examination findings,Observation,9,1,0,8,8,medical_data/cluster/Exam_v2.yml
+openEHR-EHR-CLUSTER.family_prevalence.v1,Family prevalence,Observation,9,1,0,8,8,medical_data/cluster/Family_prevalence_v1.yml
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,FIGO staging of gynaecological cancer,Measurement,5,2,0,3,3,medical_data/cluster/Figo_staging_cancer.yml
+openEHR-EHR-CLUSTER.fnclcc.v1,FNCLCC grading system,Measurement,5,2,0,3,3,medical_data/cluster/Fnclcc.yml
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,Genomic conversion variant,Observation,6,1,0,5,5,medical_data/cluster/Genomic_conversion_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,Genomic copy number variant,Observation,5,1,0,4,4,medical_data/cluster/Genomic_copy_number_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_deletion_insertion_variant.v1,Genomic deletion-insertion variant,Observation,5,1,0,4,4,medical_data/cluster/Genomic_deletion_insertion_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,Genomic deletion variant,Observation,4,1,0,3,3,medical_data/cluster/Genomic_deletion_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,Genomic duplication variant,Observation,4,1,0,3,3,medical_data/cluster/Genomic_duplication_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_insertion_variant.v1,Genomic insertion variant,Observation,4,1,0,3,3,medical_data/cluster/Genomic_insertion_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_inversion_variant.v1,Genomic inversion variant,Observation,4,1,0,3,3,medical_data/cluster/Genomic_inversion_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,Genomic repeated sequence variant,Observation,6,1,0,5,5,medical_data/cluster/Genomic_repeated_sequence_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,Genomic substitution variant,Observation,4,1,0,3,3,medical_data/cluster/Genomic_substitution_variant_v1.yml
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,Genomic variant result,Observation,42,1,0,41,41,medical_data/cluster/Genomic_variant_result_v1.yml
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,Modified NIH Criteria for GIST risk assessment,Observation,5,1,0,4,4,medical_data/cluster/Gist_modified_nih.yml
+openEHR-EHR-CLUSTER.housing_record.v1,Housing record,Observation,9,1,0,8,8,medical_data/cluster/Housing_record_v1.yml
+openEHR-EHR-CLUSTER.imaging_exam-cervix.v1,Imaging examination of the cervix,Observation,8,1,0,7,7,medical_data/cluster/Imaging_exam_cervix.yml
+openEHR-EHR-CLUSTER.imaging_exam-fallopian_tube.v1,Imaging examination of a fallopian tube,Observation,10,1,0,9,9,medical_data/cluster/Imaging_exam_fallopian_tube.yml
+openEHR-EHR-CLUSTER.imaging_exam-foetus.v1,Imaging examination of a fetus,Observation,12,1,0,11,11,medical_data/cluster/Imaging_exam_foetus.yml
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,Imaging examination of a gestational sac,Observation,12,1,0,11,11,medical_data/cluster/Imaging_exam_gestational_sac.yml
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,Imaging examination of an ovary,Observation,15,1,0,14,14,medical_data/cluster/Imaging_exam_ovary.yml
+openEHR-EHR-CLUSTER.imaging_exam-rectouterine_pouch.v1,Imaging examination of the rectouterine pouch,Observation,10,1,0,9,9,medical_data/cluster/Imaging_exam_rectouterine_pouch.yml
+openEHR-EHR-CLUSTER.imaging_exam.v1,Imaging examination of a body structure,Observation,7,1,0,6,6,medical_data/cluster/Imaging_exam.yml
+openEHR-EHR-CLUSTER.information_resource.v1,Information resource,Observation,10,1,0,9,9,medical_data/cluster/Information_resource_v1.yml
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,Inspired oxygen,Measurement,6,1,2,3,5,medical_data/cluster/Inspired_oxygen_v1.yml
+openEHR-EHR-CLUSTER.interpreter_request.v1,Interpreter request,Observation,6,1,0,5,5,medical_data/cluster/Interpreter_request_v1.yml
+openEHR-EHR-CLUSTER.item_transport.v1,Transportation of an item,Observation,16,3,0,13,13,medical_data/cluster/Item_transport_v1.yml
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,Knowledge base reference,Observation,8,1,0,7,7,medical_data/cluster/Knowledge_base_reference_v1.yml
+openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,Laboratory analyte result,Measurement,13,3,0,10,10,medical_data/cluster/Laboratory_test_analyte_v1.yml
+openEHR-EHR-CLUSTER.language.v1,Language,Observation,4,1,0,3,3,medical_data/cluster/Language_v1.yml
+openEHR-EHR-CLUSTER.media_file.v1,Media file,Observation,9,1,0,8,8,medical_data/cluster/Media_file.yml
+openEHR-EHR-CLUSTER.occupation_record.v1,Occupation record,Observation,12,1,0,11,11,medical_data/cluster/Occupation_record_v1.yml
+openEHR-EHR-CLUSTER.oocyte_specimen.v1,Oocyte specimen,Observation,1,1,0,0,0,medical_data/cluster/Oocyte_specimen.yml
+openEHR-EHR-CLUSTER.organisation.v1,Organisation,Observation,9,1,0,8,8,medical_data/cluster/Organisation_v1.yml
+openEHR-EHR-CLUSTER.person.v1,Person,Observation,11,2,0,9,9,medical_data/cluster/Person_v1.yml
+openEHR-EHR-CLUSTER.problem_qualifier.v2,Problem/Diagnosis qualifier,Observation,15,1,1,13,14,medical_data/cluster/Problem_qualifier_v2.yml
+openEHR-EHR-CLUSTER.range_of_motion.v1,Range of motion of a joint,Observation,7,1,0,6,6,medical_data/cluster/Range_of_motion_v1.yml
+openEHR-EHR-CLUSTER.reference_sequence.v1,Reference sequence,Measurement,6,1,0,5,5,medical_data/cluster/Reference_sequence_v1.yml
+openEHR-EHR-CLUSTER.religion.v1,Religious affiliation,Observation,4,1,0,3,3,medical_data/cluster/Religion_v1.yml
+openEHR-EHR-CLUSTER.service_direction.v1,Service direction,Observation,9,1,0,8,8,medical_data/cluster/Service_direction_v1.yml
+openEHR-EHR-CLUSTER.specimen.v1,Specimen,Specimen,29,6,0,23,23,medical_data/cluster/Specimen_v1.yml
+openEHR-EHR-CLUSTER.specimen_container.v1,Specimen container,Measurement,10,1,0,9,9,medical_data/cluster/Specimen_container_v1.yml
+openEHR-EHR-CLUSTER.structured_name.v1,Structured name of a person,Observation,4,1,0,3,3,medical_data/cluster/Structured_name_v1.yml
+openEHR-EHR-CLUSTER.symptom_sign.v2,Symptom/Sign,ConditionOccurrence,36,3,0,33,33,medical_data/cluster/Symptom_sign_v2.yml
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,Therapeutic direction,Observation,9,1,0,8,8,medical_data/cluster/Therapeutic_direction_v1.yml
+openEHR-EHR-CLUSTER.tnm-pathological.v1,TNM pathological classification,Observation,22,1,0,21,21,medical_data/cluster/Tnm-pathological_v1.yml
+openEHR-EHR-CLUSTER.tnm.v1,TNM clinical classification,Observation,18,1,0,17,17,medical_data/cluster/Tnm_v1.yml
+openEHR-EHR-CLUSTER.who_grade_bone_sarcoma.v1,WHO histological grade of bone sarcoma,Observation,1,1,0,0,0,medical_data/cluster/Who_grade_bone_sarcoma.yml
+openEHR-EHR-EVALUATION.advance_care_directive.v2,Advance care directive,Observation,14,3,0,11,11,medical_data/evaluation/Advance_care_directive_v2.yml
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,Advance intervention decisions,Observation,19,2,0,17,17,medical_data/evaluation/Advance_intervention_decisions_v1.yml
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v1,Adverse reaction risk,Observation,30,4,0,26,26,medical_data/evaluation/adverse_reaction_risk_v1.yml
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,Adverse reaction risk,Observation,11,7,0,4,4,medical_data/evaluation/Adverse_reaction_risk_v2.yml
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,Alcohol consumption summary,Observation,35,3,2,30,32,medical_data/evaluation/alcohol_consumption_summary_v1.yml
+openEHR-EHR-EVALUATION.art_cycle_summary.v1,Assisted reproduction treatment cycle summary,ProcedureOccurrence,30,2,0,28,28,medical_data/evaluation/Art_cycle_summary_v1.yml
+openEHR-EHR-EVALUATION.cause_of_death.v1,Cause of death,Observation,10,1,0,9,9,medical_data/evaluation/Cause_of_death_v1.yml
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,Clinical synopsis,Measurement,1,1,0,0,0,medical_data/evaluation/Clinical_synopsis_v1.yml
+openEHR-EHR-EVALUATION.communication_capability.v1,Communication capability,Observation,7,1,0,6,6,medical_data/evaluation/Communication_capability_v1.yml
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,Contraceptive use summary,Observation,21,2,0,19,19,medical_data/evaluation/Contraceptive_summary_v1.yml
+openEHR-EHR-EVALUATION.contraindication.v1,Contraindication,Observation,10,1,0,9,9,medical_data/evaluation/Contraindication_v1.yml
+openEHR-EHR-EVALUATION.death_summary.v1,Death summary,Death,18,1,0,17,17,medical_data/evaluation/Death_summary_v1.yml
+openEHR-EHR-EVALUATION.device_summary.v0,Medical device summary,-,13,0,0,13,13,medical_data/evaluation/Device_summary_v0.yml
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,Differential diagnoses,ConditionOccurrence,7,1,0,6,6,medical_data/evaluation/Differential_diagnoses_v1.yml
+openEHR-EHR-EVALUATION.education_summary.v1,Education summary,Observation,7,1,0,6,6,medical_data/evaluation/Education_summary_v1.yml
+openEHR-EHR-EVALUATION.ethnicity.v1,Ethnic identity,Observation,6,1,0,5,5,medical_data/evaluation/Ethnicity_v1.yml
+openEHR-EHR-EVALUATION.exclusion_global.v1,Exclusion - global,Observation,3,1,0,2,2,medical_data/evaluation/Exclusion_global_v1.yml
+openEHR-EHR-EVALUATION.exclusion_specific.v1,Exclusion - specific,Observation,4,1,0,3,3,medical_data/evaluation/Exclusion_specific_v1.yml
+openEHR-EHR-EVALUATION.financial_summary.v1,Financial summary,Observation,6,1,0,5,5,medical_data/evaluation/Financial_summary_v1.yml
+openEHR-EHR-EVALUATION.gender.v1,Gender,Observation,9,2,0,7,7,medical_data/evaluation/Gender_v1.yml
+openEHR-EHR-EVALUATION.goal.v1,Goal,Observation,17,1,0,16,16,medical_data/evaluation/Goal_v1.yml
+openEHR-EHR-EVALUATION.health_risk.v1,Health risk assessment,Observation,15,1,0,14,14,medical_data/evaluation/Health_risk_v1.yml
+openEHR-EHR-EVALUATION.housing_summary.v1,Housing summary,Observation,4,1,0,3,3,medical_data/evaluation/Housing_summary_v1.yml
+openEHR-EHR-EVALUATION.last_menstrual_period.v1,Last menstrual period,Measurement,4,1,0,3,3,medical_data/evaluation/Last_menstrual_period_v1.yml
+openEHR-EHR-EVALUATION.medication_summary.v1,Medication summary,DrugExposure,19,4,0,15,15,medical_data/evaluation/Medication_summary_v1.yml
+openEHR-EHR-EVALUATION.menstruation_summary.v1,Menstruation summary,Observation,14,1,0,13,13,medical_data/evaluation/Menstruation_summary_v1.yml
+openEHR-EHR-EVALUATION.obstetric_summary.v1,Obstetric summary,Measurement,16,1,11,4,15,medical_data/evaluation/Obstetric_summary_v1.yml
+openEHR-EHR-EVALUATION.occupation_summary.v1,Occupation summary,Observation,5,1,0,4,4,medical_data/evaluation/Occupation_summary_v1.yml
+openEHR-EHR-EVALUATION.precaution.v1,Precaution,Observation,9,1,0,8,8,medical_data/evaluation/Precaution_v1.yml
+openEHR-EHR-EVALUATION.pregnancy_status.v0,Current pregnancy status,Observation,2,0,0,2,2,medical_data/evaluation/Pregnancy_status_v0.yml
+openEHR-EHR-EVALUATION.problem_diagnosis.v1,Problem/Diagnosis,ConditionOccurrence,16,4,0,12,12,medical_data/evaluation/Problem_diagnosis_v1.yml
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,Reason for encounter,Observation,2,1,0,1,1,medical_data/evaluation/Reason_for_encounter_v1.yml
+openEHR-EHR-EVALUATION.recommendation.v2,Recommendation,Observation,3,1,0,2,2,medical_data/evaluation/Recommendation_v2.yml
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,Smokeless tobacco summary,Observation,32,2,2,28,30,medical_data/evaluation/Smokeless_tobacco_summary_v1.yml
+openEHR-EHR-EVALUATION.social_network.v1,Social network,Observation,5,1,0,4,4,medical_data/evaluation/Social_network_v1.yml
+openEHR-EHR-EVALUATION.specimen_summary.v1,Specimen summary,Specimen,20,4,0,16,16,medical_data/evaluation/Specimen_summary_v1.yml
+openEHR-EHR-EVALUATION.substance_use_summary.v1,Substance use summary,Observation,21,5,0,16,16,medical_data/evaluation/Substance_use_summary_v1.yml
+openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,Tobacco smoking summary,Observation,31,2,2,27,29,medical_data/evaluation/Tobacco_smoking_summary_v1.yml
+openEHR-EHR-INSTRUCTION.medication_order.v2,Medication order,DrugExposure,45,4,0,41,41,medical_data/instruction/Medication_order_v2.yml
+openEHR-EHR-INSTRUCTION.medication_order.v3,Medication order,DrugExposure,44,4,0,40,40,medical_data/instruction/Medication_order_v3.yml
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,Therapeutic item order,ProcedureOccurrence,15,3,0,12,12,medical_data/instruction/Therapeutic_item_order_v1.yml
+openEHR-EHR-OBSERVATION.acvpu.v1,ACVPU scale,Measurement,1,1,0,0,0,medical_data/observation/Acvpu_v1.yml
+openEHR-EHR-OBSERVATION.age_assertion.v1,Age assertion,Observation,3,1,0,2,2,medical_data/observation/Age_assertion_v1.yml
+openEHR-EHR-OBSERVATION.apgar.v2,Apgar score,Measurement,6,1,0,5,5,medical_data/observation/Apgar_v2.yml
+openEHR-EHR-OBSERVATION.asa_status.v1,ASA physical status classification system,Measurement,2,1,0,1,1,medical_data/observation/Asa_status_v1.yml
+openEHR-EHR-OBSERVATION.blood_pressure.v2,Blood pressure,Measurement,20,1,1,18,19,medical_data/observation/Blood_pressure_v2.yml
+openEHR-EHR-OBSERVATION.body_mass_index.v2,Body Mass Index (BMI),Measurement,6,1,0,5,5,medical_data/observation/Body_mass_index_v2.yml
+openEHR-EHR-OBSERVATION.body_segment_area.v1,Body segment area,Measurement,10,1,0,9,9,medical_data/observation/Body_segment_area_v1.yml
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,Body segment circumference,Measurement,10,2,0,8,8,medical_data/observation/Body_segment_circumference_v1.yml
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,Body segment discrepancy,Observation,10,2,0,8,8,medical_data/observation/Body_segment_discrepancy_v1.yml
+openEHR-EHR-OBSERVATION.body_segment_length.v1,Body segment length,Measurement,12,2,0,10,10,medical_data/observation/Body_segment_length_v1.yml
+openEHR-EHR-OBSERVATION.body_surface_area.v1,Body surface area,Measurement,6,1,0,5,5,medical_data/observation/Body_surface_area_v1.yml
+openEHR-EHR-OBSERVATION.body_temperature.v2,Body temperature,Measurement,11,1,0,10,10,medical_data/observation/Body_temperature_v2.yml
+openEHR-EHR-OBSERVATION.body_weight.v2,Body weight,Measurement,5,1,0,4,4,medical_data/observation/Body_weight_v2.yml
+openEHR-EHR-OBSERVATION.braden_scale.v1,Braden scale,Measurement,8,1,0,7,7,medical_data/observation/Braden_scale_v1.yml
+openEHR-EHR-OBSERVATION.bvc.v1,Brøset Violence Checklist (BVC),Observation,8,1,0,7,7,medical_data/observation/Bvc_v1.yml
+openEHR-EHR-OBSERVATION.capillary_refill.v1,Capillary refill time (CRT),Measurement,8,1,0,7,7,medical_data/observation/Capillary_refill_v1.yml
+openEHR-EHR-OBSERVATION.cgas.v1,Children's Global Assessment Scale,Measurement,2,1,0,1,1,medical_data/observation/Cgas_v1.yml
+openEHR-EHR-OBSERVATION.charlson_comorbidity_index.v2,Charlson Comorbidity Index (CCI),Measurement,19,1,0,18,18,medical_data/observation/Charlson_comorbidity_index_v2.yml
+openEHR-EHR-OBSERVATION.clinical_frailty_scale.v1,Clinical Frailty Scale (CFS),Measurement,1,1,0,0,0,medical_data/observation/Clinical_frailty_scale_v1.yml
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,Clinical Frailty Scale (CFS 2.0),Measurement,1,1,0,0,0,medical_data/observation/Clinical_frailty_scale2_v1.yml
+openEHR-EHR-OBSERVATION.cormack_lehane.v1,Cormack-Lehane classification,Measurement,2,1,0,1,1,medical_data/observation/Cormack_lehane_v1.yml
+openEHR-EHR-OBSERVATION.cpax.v1,Chelsea Critical Care Physical Assessment (CPAx) tool,Measurement,11,1,0,10,10,medical_data/observation/Cpax_v1.yml
+openEHR-EHR-OBSERVATION.crb_65.v1,CRB-65 score,Measurement,6,1,0,5,5,medical_data/observation/Crb_65_v1.yml
+openEHR-EHR-OBSERVATION.curb_65.v1,CURB-65 score,Measurement,7,1,0,6,6,medical_data/observation/Curb_65_v1.yml
+openEHR-EHR-OBSERVATION.demo.v1,Demonstration,Observation,23,0,0,23,23,medical_data/observation/Demo_v1.yml
+openEHR-EHR-OBSERVATION.ecg_result.v1,ECG result,Measurement,64,1,3,60,63,medical_data/observation/Ecg_result_v1.yml
+openEHR-EHR-OBSERVATION.ecog.v1,ECOG performance status,Observation,2,1,0,1,1,medical_data/observation/Ecog_v1.yml
+openEHR-EHR-OBSERVATION.ecog.v2,ECOG performance status,Observation,1,1,0,0,0,medical_data/observation/Ecog_v2.yml
+openEHR-EHR-OBSERVATION.esas_r.v1,Edmonton Symptom Assessment System Revised (ESAS-r),Measurement,11,1,10,0,10,medical_data/observation/Esas_r_v1.yml
+openEHR-EHR-OBSERVATION.exam.v1,Physical examination findings,Observation,7,1,0,6,6,medical_data/observation/Exam_v1.yml
+openEHR-EHR-OBSERVATION.exposure_screening.v1,Exposure screening questionnaire,Observation,10,1,0,9,9,medical_data/observation/Exposure_screening_v1.yml
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,Fetal biometry,Measurement,12,1,8,3,11,medical_data/observation/Fetal_biometry_v1.yml
+openEHR-EHR-OBSERVATION.fluid_balance.v1,Fluid balance,Measurement,5,1,3,1,4,medical_data/observation/Fluid_balance_v1.yml
+openEHR-EHR-OBSERVATION.fluid_input.v1,Fluid input,Measurement,8,1,1,6,7,medical_data/observation/Fluid_input_v1.yml
+openEHR-EHR-OBSERVATION.fluid_output.v1,Fluid output,Measurement,8,1,1,6,7,medical_data/observation/Fluid_output_v1.yml
+openEHR-EHR-OBSERVATION.four_a_test.v1,4AT,Measurement,5,1,0,4,4,medical_data/observation/Four_a_test_v1.yml
+openEHR-EHR-OBSERVATION.glasgow_coma_scale.v1,Glasgow Coma Scale (GCS),Measurement,7,1,0,6,6,medical_data/observation/Glasgow_coma_scale_v1.yml
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,Glasgow Outcome Scale - Extended (GOSE),Measurement,27,1,0,26,26,medical_data/observation/Glasgow_outcome_scale_extended_v1.yml
+openEHR-EHR-OBSERVATION.head_circumference.v1,Head circumference,Measurement,4,1,0,3,3,medical_data/observation/Head_circumference_v1.yml
+openEHR-EHR-OBSERVATION.height.v1,Height/Length,Measurement,5,1,0,4,4,medical_data/observation/Body_height_v1.yml
+openEHR-EHR-OBSERVATION.height.v2,Height/Length,Measurement,5,1,0,4,4,medical_data/observation/Height_v2.yml
+openEHR-EHR-OBSERVATION.hip_circumference.v1,Hip circumference,Measurement,4,1,0,3,3,medical_data/observation/Hip_circumference_v1.yml
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,Hirsutism scales,Measurement,16,1,12,3,15,medical_data/observation/Hirsutism_scales_v1.yml
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,Imaging examination result,ConditionOccurrence,47,2,1,44,45,medical_data/observation/Imaging_exam_result_v1.yml
+openEHR-EHR-OBSERVATION.investigation_screening.v1,Diagnostic investigation screening questionnaire,Observation,11,3,0,8,8,medical_data/observation/Investigation_screening_v1.yml
+openEHR-EHR-OBSERVATION.ipss.v1,International prostate symptom score (IPSS),Measurement,9,1,0,8,8,medical_data/observation/Ipss_v1.yml
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,Karnofsky Performance Status (KPS) scale,Measurement,1,1,0,0,0,medical_data/observation/Karnofsky_performance_status_scale_v1.yml
+openEHR-EHR-OBSERVATION.laboratory_test_result.v1,Laboratory test result,-,24,0,0,24,24,medical_data/observation/Laboratory_test_result_v1.yml
+openEHR-EHR-OBSERVATION.lenke_classification.v1,Lenke classification system,Observation,4,1,0,3,3,medical_data/observation/Lenke_classification_v1.yml
+openEHR-EHR-OBSERVATION.mallampati_classification.v1,Modified Mallampati classification,Measurement,2,1,0,1,1,medical_data/observation/Mallampati_classification_v1.yml
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,Malnutrition Screening Tool (MST),Measurement,3,1,0,2,2,medical_data/observation/Malnutrition_screening_tool_v1.yml
+openEHR-EHR-OBSERVATION.management_screening.v1,Management screening questionnaire,Measurement,10,3,0,7,7,medical_data/observation/Management_screening_v1.yml
+openEHR-EHR-OBSERVATION.management_screening.v2,Management screening questionnaire,Measurement,9,3,0,6,6,medical_data/observation/Management_screening_v2.yml
+openEHR-EHR-OBSERVATION.mayo_score.v1,Mayo score,Observation,7,1,0,6,6,medical_data/observation/Mayo_score_v1.yml
+openEHR-EHR-OBSERVATION.medication_screening.v1,Medication screening questionnaire,DrugExposure,10,4,1,5,6,medical_data/observation/Medication_screening_v1.yml
+openEHR-EHR-OBSERVATION.medication_statement.v0,Medication use statement,DrugExposure,11,3,0,8,8,medical_data/instruction/Medication_statement_v0.yml
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,Menstrual diary,Observation,7,1,2,4,6,medical_data/observation/Menstrual_diary_v1.yml
+openEHR-EHR-OBSERVATION.menstruation.v1,Menstrual cycle,Observation,8,1,2,5,7,medical_data/observation/Menstruation_v1.yml
+openEHR-EHR-OBSERVATION.mini_bestest.v1,Mini-Balance Evaluation Systems Test (Mini-BESTest),Observation,31,1,0,30,30,medical_data/observation/Mini_bestest_v1.yml
+openEHR-EHR-OBSERVATION.modified_rankin_scale.v1,Modified Rankin Scale (mRS),Measurement,1,1,0,0,0,medical_data/observation/Modified_rankin_scale_v1.yml
+openEHR-EHR-OBSERVATION.msfc_score.v1,MSFC-Wert,Observation,5,1,0,4,4,medical_data/observation/MSFC_score_v1.yml
+openEHR-EHR-OBSERVATION.msfc_score.v2,Multiple Sclerosis Functional Composite (MSFC),Observation,5,1,0,4,4,medical_data/observation/MSFC_score_v2.yml
+openEHR-EHR-OBSERVATION.news2.v1,National Early Warning Score 2 (NEWS2),Measurement,10,1,0,9,9,medical_data/observation/News2_v1.yml
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,National Early Warning Score (NEWS),Measurement,11,1,0,10,10,medical_data/observation/News_uk_rcp_v1.yml
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,Nine Hole Peg Test,Measurement,13,1,1,11,12,medical_data/observation/Nine_hole_peg_test_v1.yml
+openEHR-EHR-OBSERVATION.nyha_heart_failure.v1,New York Heart Association functional classification,Observation,3,1,1,1,2,medical_data/observation/Nyha_heart_failure_v1.yml
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v1,Paced Auditory Serial Addition Test,Measurement,13,1,0,12,12,medical_data/observation/Paced_auditory_serial_addition_test_v1.yml
+openEHR-EHR-OBSERVATION.pasi_score.v1,Psoriasis Area Severity Index (PASI),Measurement,21,1,0,20,20,medical_data/observation/Pasi_score_v1.yml
+openEHR-EHR-OBSERVATION.pf_ratio.v1,PaO₂/FiO₂ ratio,Measurement,4,1,0,3,3,medical_data/observation/Pf_ratio_v1.yml
+openEHR-EHR-OBSERVATION.problem_screening.v1,Problem/Diagnosis screening questionnaire,Observation,9,3,0,6,6,medical_data/observation/Problem_screening_v1.yml
+openEHR-EHR-OBSERVATION.procedure_screening.v1,Procedure screening questionnaire,ProcedureOccurrence,9,2,0,7,7,medical_data/observation/Procedure_screening_v1.yml
+openEHR-EHR-OBSERVATION.progress_note.v1,Progress note,Measurement,1,1,0,0,0,medical_data/observation/Progress_note_v1.yml
+openEHR-EHR-OBSERVATION.pulse.v2,Pulse/Heart beat,Measurement,14,1,0,13,13,medical_data/observation/Pulse_v2.yml
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,Pulse oximetry,Measurement,14,1,3,10,13,medical_data/observation/Pulse_oximetry_v1.yml
+openEHR-EHR-OBSERVATION.qsofa_score.v1,qSOFA score,Measurement,5,1,0,4,4,medical_data/observation/Qsofa_score_v1.yml
+openEHR-EHR-OBSERVATION.respiration.v2,Respiration,Measurement,11,1,0,10,10,medical_data/observation/Respiration_v2.yml
+openEHR-EHR-OBSERVATION.revised_cardiac_risk_index.v1,Revised cardiac risk index,Measurement,8,1,0,7,7,medical_data/observation/Revised_cardiac_risk_index_v1.yml
+openEHR-EHR-OBSERVATION.simplified_tanner_whitehouse_3.v1,Simplified Tanner-Whitehouse III assessment,Measurement,1,1,0,0,0,medical_data/observation/Simplified_tanner_whitehouse_3_v1.yml
+openEHR-EHR-OBSERVATION.social_context_screening.v1,Social context screening questionnaire,Observation,8,2,0,6,6,medical_data/observation/Social_context_screening_v1.yml
+openEHR-EHR-OBSERVATION.spirometry_result.v2,Spirometry result,Measurement,24,1,4,19,23,medical_data/observation/Spirometry_result_v2.yml
+openEHR-EHR-OBSERVATION.story.v1,Story/History,Observation,2,1,0,1,1,medical_data/observation/Story_v1.yml
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,Substance use screening questionnaire,Observation,11,3,0,8,8,medical_data/observation/Substance_use_screening_v1.yml
+openEHR-EHR-OBSERVATION.symptom_sign_screening.v1,Symptom/sign screening questionnaire,Observation,10,3,0,7,7,medical_data/observation/Symptom_sign_screening_v1.yml
+openEHR-EHR-OBSERVATION.tanner.v1,Tanner stages,Observation,5,1,2,2,4,medical_data/observation/Tanner_v1.yml
+openEHR-EHR-OBSERVATION.testicular_volume.v1,Testicular volume,Observation,7,2,0,5,5,medical_data/observation/Testicular_volume_v1.yml
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v1,Timed 25-Foot Walk,Observation,8,1,0,7,7,medical_data/observation/Timed_25_foot_walk_v1.yml
+openEHR-EHR-OBSERVATION.travel_screening.v1,Travel screening questionnaire,Observation,9,3,0,6,6,medical_data/observation/Travel_screening_v1.yml
+openEHR-EHR-OBSERVATION.urinalysis.v1,Urinalysis,Measurement,17,1,9,7,16,medical_data/observation/Urinalysis_v1.yml
+openEHR-EHR-OBSERVATION.waist_circumference.v1,Waist circumference,Measurement,5,1,0,4,4,medical_data/observation/Waist_circumference_v1.yml
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,Yale Global Tic Severity Scale - Revised (YGTSS-R),Measurement,123,1,0,122,122,medical_data/observation/Ygtss_revised_v1.yml

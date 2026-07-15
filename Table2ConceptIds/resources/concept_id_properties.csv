@@ -1,0 +1,5 @@
+property,count,percentage,denominator_concept_id_blocks
+Mappings to zero (no applicable concept),25,8.59,291
+Mappings using a fixed concept,234,80.41,291
+Mappings with paths,24,8.25,291
+Mappings with conceptMap,9,3.09,291

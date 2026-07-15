@@ -18,12 +18,15 @@ A `path:` nested inside a conceptMap belongs to that conceptMap, not to "paths".
 Requires: Python 3, PyYAML.   Run: python "concept_id_properties.py"
 """
 import os
+import csv
 import glob
 import collections
 import yaml
 
-MAPPINGS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                            "..", "resources", "OMOCL mappings")
+HERE = os.path.dirname(os.path.abspath(__file__))
+MAPPINGS_DIR = os.path.join(HERE, "..", "resources", "OMOCL mappings")
+OUTPUT_DIR = os.path.join(HERE, "resources")
+OUTPUT_CSV = os.path.join(OUTPUT_DIR, "concept_id_properties.csv")
 
 CATEGORIES = [
     ("zero",       "Mappings to zero (no applicable concept)"),
@@ -77,6 +80,15 @@ def main():
         count = counts[key]
         print("%-42s %6d %10.2f%%" % (label, count, 100.0 * count / concept_id_blocks))
     print("\nCategories are not mutually exclusive, so a block may count in several rows.")
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(OUTPUT_CSV, "w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["property", "count", "percentage", "denominator_concept_id_blocks"])
+        for key, label in CATEGORIES:
+            writer.writerow([label, counts[key],
+                             "%.2f" % (100.0 * counts[key] / concept_id_blocks), concept_id_blocks])
+    print("wrote %s" % os.path.relpath(OUTPUT_CSV, HERE))
 
 
 if __name__ == "__main__":
