@@ -127,13 +127,13 @@ Outputs:
   auxiliary, source`).
 - a printed Table 3 summary.
 
-### Result (all 198 archetypes, 2323 leaves)
+### Result (all 198 archetypes, 2289 leaves)
 
-- mapped to the primary table: 293 (12.6%)
-- auxiliary, needs fact_relationship: 2030 (87.4%), of which 85 externalised and 1945 not mapped
+- mapped to the primary table: 293 (12.8%)
+- auxiliary, needs fact_relationship: 1996 (87.2%), of which 85 externalised and 1911 not mapped
 - archetypes needing at least one auxiliary record: 187 of 198 (94.4%)
 
-Verified anchor, Problem/Diagnosis: 17 leaves, 4 mapped (name, onset, resolution, status), 13
+Verified anchor, Problem/Diagnosis: 16 leaves, 4 mapped (name, onset, resolution, status), 12
 auxiliary. This matches the manuscript's by-hand analysis exactly.
 
 ## Status
