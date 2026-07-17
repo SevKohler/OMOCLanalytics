@@ -1,23 +1,185 @@
 archetype,omop_table,omop_field,n_paths,paths
-openEHR-EHR-ACTION.service.v1,Observation,observation_date,2,/description[at0001]/items[at0032] | /description[at0001]/items[at0025]
+openEHR-EHR-ACTION.health_education.v1,Observation,observation_date,2,/description[at0001]/items[at0026] | .
+openEHR-EHR-ACTION.medication.v1,DrugExposure,drug_exposure_end_date,3,/items[at0043] | ../ | .
+openEHR-EHR-ACTION.medication.v1,DrugExposure,drug_exposure_start_date,3,/items[at0043] | ../ | .
+openEHR-EHR-ACTION.procedure.v1,ProcedureOccurrence,procedure_start_date,2,description[at0001]/items[at0066] | .
+openEHR-EHR-ACTION.service.v1,Observation,observation_date,3,/description[at0001]/items[at0032] | /description[at0001]/items[at0025] | .
 openEHR-EHR-ADMIN_ENTRY.person_data.v0,Person,ethnicity_concept_id,2,/data[at0001]/items[openEHR-EHR-CLUSTER.ethnischer_hintergrund.v0]/items[at0002] | /data[at0001]/item[openEHR-EHR-EVALUATION.ethnicity.v1]/items[at0003]
 openEHR-EHR-ADMIN_ENTRY.person_data.v0,Person,year_of_birth,2,/data[at0001]/items[openEHR-EHR-CLUSTER.person_birth_data_iso.v0]/items[at0001] | ../content[openEHR-EHR-OBSERVATION.age.v0]/data[at0001]/events[at0002]/data[at0003]/items[at0004]
-openEHR-EHR-CLUSTER.adverse_reaction_event.v1,Observation,observation_date,2,/items[at0008] | /items[at0015]
+openEHR-EHR-CLUSTER.Oocyte_specimen.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,Observation,observation_date,4,/items[at0008] | /items[at0015] | ../../ | ../../../../../context
 openEHR-EHR-CLUSTER.anatomical_location.v1,Observation,value,2,/items[at0065] | /items[at0001]
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.clinical_evidence.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.ctcae.v1,Measurement,measurement_date,2,../../ | ../../../../../context
 openEHR-EHR-CLUSTER.device.v1,DeviceExposure,concept_id,2,/items[at0001] | /items[at0003]
-openEHR-EHR-CLUSTER.item_transport.v1,Observation,observation_date,2,/items[at0007] | /items[at0004]
+openEHR-EHR-CLUSTER.device.v1,DeviceExposure,device_exposure_end_date,3,../items[at0022]/items[at0009] | ../ | ../../
+openEHR-EHR-CLUSTER.device.v1,DeviceExposure,device_exposure_start_date,4,../items[at0022]/items[at0008] | ../ | ../../ | ../../../../../context
+openEHR-EHR-CLUSTER.dosage.v1,DrugExposure,drug_exposure_end_date,2,../items[at0043] | ../../
+openEHR-EHR-CLUSTER.dosage.v1,DrugExposure,drug_exposure_start_date,2,../items[at0043] | ../../
+openEHR-EHR-CLUSTER.dosage.v2,DrugExposure,drug_exposure_end_date,2,../items[at0043] | ../../
+openEHR-EHR-CLUSTER.dosage.v2,DrugExposure,drug_exposure_start_date,2,../items[at0043] | ../../
+openEHR-EHR-CLUSTER.education_record.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.exam.v2,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.family_prevalence.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.fnclcc.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_deletion_insertion_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_insertion_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_inversion_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.housing_record.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-cervix.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-fallopian_tube.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-fallopian_tube.v1,ProcedureOccurrence,procedure_start_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-foetus.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam-rectouterine_pouch.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.imaging_exam.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.information_resource.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.interpreter_request.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.item_transport.v1,Observation,observation_date,4,/items[at0007] | /items[at0004] | ../../ | ../../../../../context
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.laboratory_test_analyte.v1,Measurement,measurement_date,3,/items[at0025] | ../../ | ../../../
+openEHR-EHR-CLUSTER.language.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.media_file.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.occupation_record.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.organisation.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.person.v1,Observation,observation_date,2,../../ | ../../../../../context
 openEHR-EHR-CLUSTER.person.v1,Observation,value,2,/items[at0003] | /items[at0001]
+openEHR-EHR-CLUSTER.problem_qualifier.v2,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.range_of_motion.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.reference_sequence.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.religion.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.service_direction.v1,Observation,observation_date,2,../../ | ../../../../../context
 openEHR-EHR-CLUSTER.specimen.v1,Specimen,concept_id,2,/items[at0029] | /items[at0098]
-openEHR-EHR-CLUSTER.symptom_sign.v2,ConditionOccurrence,condition_start_date,2,/items[at0152] | /items[at0164]
-openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,Observation,observation_date,2,/data[at0001]/items[at0117] | /data[at0001]/items[at0133]
+openEHR-EHR-CLUSTER.specimen_container.v1,Measurement,measurement_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.structured_name.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.symptom_sign.v2,ConditionOccurrence,condition_start_date,4,/items[at0152] | /items[at0164] | ../../ | ../../../../../context
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,Observation,observation_date,3,/items[at0178] | ../../ | ../../../../../context
+openEHR-EHR-CLUSTER.tnm-pathological.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.tnm.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-CLUSTER.who_grade_bone_sarcoma.v1,Observation,observation_date,2,../../ | ../../../../../context
+openEHR-EHR-EVALUATION.advance_care_directive.v2,Observation,observation_date,2,/protocol[at0010]/items[at0053] | ../context
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v1,Observation,observation_date,2,/data[at0001]/items[at0027] | ../context
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,Observation,observation_date,3,/data[at0001]/items[at0117] | /data[at0001]/items[at0133] | ../context
 openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,Observation,qualifier,4,/data[at0001]/items[at0130] | /data[at0001]/items[at0063] | /data[at0001]/items[at0101] | /data[at0001]/items[at0120]
-openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,Observation,observation_date,2,/data[at0001]/items[at0015] | /data[at0001]/items[at0080]
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,Observation,observation_date,3,/data[at0001]/items[at0015] | /data[at0001]/items[at0080] | ../context
+openEHR-EHR-EVALUATION.art_cycle_summary.v1,ProcedureOccurrence,procedure_start_date,2,data[at0001]/items[at0004] | ../context
 openEHR-EHR-EVALUATION.gender.v1,Observation,value,2,/data[at0002]/items[at0019] | /data[at0002]/items[at0022]
+openEHR-EHR-EVALUATION.health_risk.v1,Observation,observation_date,2,/data[at0001]/events[at0023] | ../context
+openEHR-EHR-EVALUATION.last_menstrual_period.v1,Measurement,measurement_date,2,/data[at0001]/items[at0002] | .
+openEHR-EHR-EVALUATION.medication_summary.v1,DrugExposure,drug_exposure_end_date,3,/data[at0001]/items[at0010] | ../ | .
+openEHR-EHR-EVALUATION.medication_summary.v1,DrugExposure,drug_exposure_start_date,3,/data[at0001]/items[at0009] | ../ | .
+openEHR-EHR-EVALUATION.problem_diagnosis.v1,ConditionOccurrence,condition_start_date,2,data[at0001]/items[at0077] | ../context
 openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,Observation,value,2,/data[at0001]/items[at0089] | /data[at0001]/items[at0043]
-openEHR-EHR-EVALUATION.substance_use_summary.v1,Observation,observation_date,3,/data[at0001]/items[at0008] | /data[at0001]/items[at0009] | /data[at0001]/items[at0010]
+openEHR-EHR-EVALUATION.specimen_summary.v1,Specimen,specimen_date,2,/data[at0001]/items[at0018] | ../context
+openEHR-EHR-EVALUATION.substance_use_summary.v1,Observation,observation_date,4,/data[at0001]/items[at0008] | /data[at0001]/items[at0009] | /data[at0001]/items[at0010] | ../context
 openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1,Observation,value,2,/data[at0001]/items[at0089] | /data[at0001]/items[at0043]
-openEHR-EHR-OBSERVATION.medication_screening.v1,DrugExposure,drug_exposure_end_date,2,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002]
-openEHR-EHR-OBSERVATION.medication_screening.v1,DrugExposure,drug_exposure_start_date,2,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002]
-openEHR-EHR-OBSERVATION.medication_statement.v0,DrugExposure,drug_exposure_end_date,5,data[at0003]/items[at0025] | data[at0003]/items[at0021] | data[at0003]/items[at0026] | data[at0003]/items[at0024] | data[at0003]/items[at0019]
-openEHR-EHR-OBSERVATION.medication_statement.v0,DrugExposure,drug_exposure_start_date,2,data[at0003]/items[at0024] | data[at0003]/items[at0019]
-openEHR-EHR-OBSERVATION.substance_use_screening.v1,Observation,observation_date,2,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002]
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,ProcedureOccurrence,procedure_start_date,2,description[at0002]/items[at0012] | .
+openEHR-EHR-OBSERVATION.acvpu.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.asa_status.v1,Measurement,measurement_date,2,/data[at0015]/events[at0016] | .
+openEHR-EHR-OBSERVATION.body_mass_index.v2,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.body_segment_area.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.body_segment_length.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.body_surface_area.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.body_temperature.v2,Measurement,measurement_date,2,/data[at0002]/events[at0003] | .
+openEHR-EHR-OBSERVATION.body_weight.v2,Measurement,measurement_date,2,/data[at0002]/events[at0003] | .
+openEHR-EHR-OBSERVATION.braden_scale.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.capillary_refill.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.cgas.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.charlson_comorbidity_index.v2,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.cormack_lehane.v1,Measurement,measurement_date,2,/data[at0007]/events[at0008] | ../context
+openEHR-EHR-OBSERVATION.cpax.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.crb_65.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.curb_65.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.demo.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.ecg_result.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.ecog.v2,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.esas_r.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.exam.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.exposure_screening.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.fluid_balance.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.fluid_balance.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.fluid_input.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.fluid_output.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.four_a_test.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.glasgow_coma_scale.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.height.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.height.v2,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.hip_circumference.v1,Measurement,measurement_date,2,/data[at0001]/events[at0010] | .
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,ConditionOccurrence,condition_start_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0070] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.investigation_screening.v1,Observation,observation_date,3,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023] | ../context
+openEHR-EHR-OBSERVATION.ipss.v1,Measurement,measurement_date,2, /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.lenke_classification.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.mallampati_classification.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.management_screening.v1,Measurement,measurement_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.management_screening.v2,Measurement,measurement_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.mayo_score.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.medication_screening.v1,DrugExposure,drug_exposure_end_date,3,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002] | ../context
+openEHR-EHR-OBSERVATION.medication_screening.v1,DrugExposure,drug_exposure_start_date,3,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002] | ../context
+openEHR-EHR-OBSERVATION.medication_statement.v0,DrugExposure,drug_exposure_end_date,6,data[at0003]/items[at0025] | data[at0003]/items[at0021] | data[at0003]/items[at0026] | data[at0003]/items[at0024] | data[at0003]/items[at0019] | .
+openEHR-EHR-OBSERVATION.medication_statement.v0,DrugExposure,drug_exposure_start_date,3,data[at0003]/items[at0024] | data[at0003]/items[at0019] | .
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,Observation,observation_date,2,/data[at0001]/events[at0002]/data[at0003]/items[at0004] | ../context
+openEHR-EHR-OBSERVATION.menstruation.v1,Measurement,measurement_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0004] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.menstruation.v1,Observation,observation_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0004] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.mini_bestest.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.modified_rankin_scale.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.msfc_score.v1,Observation,observation_date,2,/data[at0001]/events[at0010] | ../context
+openEHR-EHR-OBSERVATION.msfc_score.v2,Observation,observation_date,2,/data[at0001]/events[at0010] | ../context
+openEHR-EHR-OBSERVATION.news2.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,Measurement,measurement_date,2,/data[at0001]/events[at0074] | ../context
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,Measurement,measurement_date,2,/data[at0001]/events[at0075] | ../context
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,Measurement,measurement_date,2,/data[at0001]/events[at0076] | ../context
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,Measurement,measurement_date,2,/data[at0001]/events[at0077] | ../context
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v1,Observation,observation_date,2,/data[at0001]/events[at0074] | ../context
+openEHR-EHR-OBSERVATION.nyha_heart_failure.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v1,Measurement,measurement_date,2,/data[at0002]/events[at0064] | ../context
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v1,Measurement,measurement_date,2,/data[at0002]/events[at0065] | ../context
+openEHR-EHR-OBSERVATION.pasi_score.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.pf_ratio.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.problem_screening.v1,Observation,observation_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0040] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.procedure_screening.v1,ProcedureOccurrence,procedure_end_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.procedure_screening.v1,ProcedureOccurrence,procedure_start_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.progress_note.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.pulse.v2,Measurement,measurement_date,3,/data[at0002]/events[at0003] | . | ../
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.qsofa_score.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.respiration.v2,Measurement,measurement_date,2,. | ../../
+openEHR-EHR-OBSERVATION.revised_cardiac_risk_index.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.simplified_tanner_whitehouse_3.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.social_context_screening.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.spirometry_result.v2,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.spirometry_result.v2,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.story.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,Observation,observation_date,4,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002] | /data[at0022]/events[at0023] | ../context
+openEHR-EHR-OBSERVATION.symptom_sign_screening.v1,Observation,observation_date,3,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037] | /data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.tanner.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.testicular_volume.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v1,Observation,observation_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v1,Observation,observation_date,2,/data[at0001]/events[at0007] | ../context
+openEHR-EHR-OBSERVATION.travel_screening.v1,Observation,observation_date,3,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003] | /data[at0022]/events[at0023] | ../context
+openEHR-EHR-OBSERVATION.urinalysis.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | .
+openEHR-EHR-OBSERVATION.waist_circumference.v1,Measurement,measurement_date,2,/data[at0001]/events[at0010] | ../context
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,Measurement,measurement_date,2,/data[at0001]/events[at0002] | ../context
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,Measurement,measurement_date,2,/data[at0001]/events[at0004] | ../context
